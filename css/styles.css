@@ -1,0 +1,17 @@
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+  .column {
+    width: 200px;
+    float: left;
+    padding: 2px;
+    background-color: lightblue;
+    border: 2px solid black;
+    margin: 2px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: teal;
+    color: white;
+  }
+}
